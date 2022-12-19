@@ -1,4 +1,6 @@
-# Program design
+# steganography
+---
+## Program design
  
 - A steganography tool written in C to encode and decode text in a PPM image file. 
 - The text is encoded into the image file by altering the pixels at random and it is decoded by comparing the original and encoded image files.
@@ -94,7 +96,7 @@ When the recieved PPM structures is `NULL` or if they dont match in height or wi
 
 ---
 
-# Choice of data structures and algorithms
+## Choice of data structures and algorithms
 
 ### Data Structure
 
